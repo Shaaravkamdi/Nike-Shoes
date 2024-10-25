@@ -138,3 +138,50 @@ button {
     color: black;
     cursor: pointer;
 }
+
+
+
+
+/* Hover Dropdown */
+
+.nav-link {
+    color: white;
+    border: none;
+}
+
+
+.dropdown {
+    position: relative;
+    display: block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 100px;
+    border-radius: 50px;
+    /* z-index: 1; */
+}
+
+
+.dropdown-content a {
+    color: black;
+    padding: 20px 25px;
+    text-decoration: none;
+    display: flex;
+
+}
+
+.dropdown-content a:hover {
+    border-radius: 50px;
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    position: absolute;
+    right: -170px;
+    display: flex;
+    flex-direction: row;
+
+}

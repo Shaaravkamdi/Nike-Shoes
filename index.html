@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nike</title>
@@ -19,8 +19,9 @@
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top p-3">
         <div class="container">
+            
             <!-- Navbar Brand (Optional) -->
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="./index.html">
                 <img src="./navbar logo.png" alt="">
             </a>
 
@@ -35,11 +36,21 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav mx-auto d-flex justify-content-center gap-5">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
+                        <a class="nav-link" href="./index.html">Home</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#Collections">Collections</a>
-                    </li>
+
+                    <div class="dropdown">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Collections">Collections</a>
+
+                            <div class="dropdown-content">
+                                <a href="./Shoe1/shoe1.html"> <img src="./img1.jpg" style="width: 100px;"> </a>
+                                <a href="./Shoe2/shoe2.html"> <img src="./img2.jpg" style="width: 100px;"> </a>
+                                <a href="./Shoe3/shoe3.html"> <img src="./img3.jpg" style="width: 100px;"> </a>
+                            </div>
+                        </li>
+                    </div>
+
                     <li class="nav-item">
                         <a class="nav-link" href="#About">About</a>
                     </li>
@@ -64,7 +75,7 @@
 
         <div class="item active">
             <div class="img-box">
-                <img src="./img1.jpg" >
+                <img src="./img1.jpg">
             </div>
 
             <div class="info-box">
@@ -126,31 +137,13 @@
         </div>
 
 
-        <!-- <div class="item">
-            <div class="img-box">
-                <img src="https://i.postimg.cc/vmx4bCFG/img4.png" alt="Lion Devil">
-            </div>
-
-            <div class="info-box">
-                <div class="info-slider">
-                    <div class="info-item" style="--i:3;">
-                        <h2>Lion Devil</h2>
-                        <p>Lion Devil is a legendary creature that combines the grandeur of a lion with the ferocity of
-                            a demon. Known for his immense strength and imposing presence, he is often depicted in myths
-                            and legends as a fierce guardian or a being of destruction.</p>
-                        <a href="#" class="btn">View More</a>
-                    </div>
-                </div>
-            </div>
-
-        </div>  -->
+      
 
         <!-- THUMBNAIL -->
         <ul class="thumb">
             <li class="selected"><img src="./img1.jpg"></li>
             <li><img src="./img2.jpg"></li>
             <li><img src="./img3.jpg"></li>
-            <!-- <li><img src="https://i.postimg.cc/13ftrbzD/thumb4.png"></li> -->
         </ul>
 
     </div>
